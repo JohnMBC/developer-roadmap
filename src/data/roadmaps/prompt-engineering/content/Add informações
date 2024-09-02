@@ -1,0 +1,42 @@
+ais exemplos de delimitadores:
+
+Exemplos de delimitadores comuns incluem ####,"", --, entre outros. Eles são usados para destacar trechos importantes dentro de um prompt, como no exemplo abaixo:
+
+#### Sample E-mail ####
+Hello, João!
+
+I'd like to arrange a meeting to discuss project X. Are you available next Tuesday at 10am?
+
+Hugs, 
+Maria
+#### Fim do Exemplo ####
+Ao usar #### para delimitar o exemplo de e-mail, fica claro para o modelo que ele deve prestar atenção especial a esse trecho.
+Asteriscos:
+*** Exemplo de Nota ***
+Por favor, revise o documento anexo e forneça seu feedback até sexta-feira.
+*** Fim da Nota ***
+
+Hifens:
+-- Sample task --
+1. Completar o relatório financeiro.
+2. Enviar o e-mail de atualização para a equipe.
+-- Fim da Tarefa --
+
+Parênteses:
+(( Example message ))
+Olá, equipe!
+
+Lembrem-se de atualizar suas planilhas de horas até o final do dia.
+(( Fim da Mensagem ))
+
+Chaves:
+{{Example of a warning}}
+A reunião de equipe foi adiada para quarta-feira às 14h.
+{{ Fim do Aviso }}
+
+Colchetes:
+[[  Example Instruction ]]
+Por favor, siga as etapas abaixo para configurar seu novo software.
+[[ Fim da Instrução ]]
+
+Usar esses delimitadores ajuda a organizar e destacar informações importantes, facilitando a compreensão e o processamento tanto para humanos quanto para modelos de linguagem.
